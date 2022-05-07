@@ -23,3 +23,10 @@ ENTRYPOINT ["node", "server.js"]
 * `docker build -t <image name> .`
 * `docker build -t <registry>/<name>:<tag> .`
 	* docker build -t cckcoder/fastapi:1.0 .
+
+## Deploy an Image to Docker hub
+* `docker push <user name>/<image name>:<tag>`
+
+## Running a Container
+
+* `docker run -p <external port>:<internal port>`
