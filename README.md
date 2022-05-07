@@ -18,3 +18,8 @@ RUN npm install
 EXPOSE 3000
 ENTRYPOINT ["node", "server.js"]
 ```
+
+## Using docker build
+* `docker build -t <image name> .`
+* `docker build -t <registry>/<name>:<tag> .`
+	* docker build -t cckcoder/fastapi:1.0 .
